@@ -1,4 +1,4 @@
-The folders "Figure 2", "Figure 3","Figure 4a","Figure 4b","Figure 5","Figure 6a" and "Figure 6b" are about the simulations.
+The folders "Fig2a", "Fig2b","Fig3","Fig4a","Fig4b" and "Fig5" are about the simulations.
 
 The folder “Samples” includes the
 
