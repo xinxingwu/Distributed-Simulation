@@ -9,3 +9,5 @@ The folder “Samples” includes the
 3) training samples with noise (0.5) https://github.com/xinxingwu/Distributed-Simulation/tree/master/Samples/TrainingSamplesWithNoise0.5
 
 4) training samples with noise (1) https://github.com/xinxingwu/Distributed-Simulation/tree/master/Samples/TrainingSamplesWithNoise1
+
+In addition, if using PyCharm to run the codes, it needs to configure the Project Interpreter. Please see

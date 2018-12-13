@@ -47,9 +47,9 @@ f.close()
 # Graphic display
 plt.figure(figsize=(12, 7))
 plt.plot(lambda_num_lists[0:20], emp_test_minus_emp_data[0:20], 'rs', linestyle='--',
-         label='Difference between test error and empirical risk (6,10000)', markersize=size_marker)
+         label='Difference (6,10000)', markersize=size_marker)
 plt.plot(lambda_num_lists[20:40], emp_test_minus_emp_data[20:40], 'bo', linestyle=':',
-         label='Difference between test error and empirical risk (8,10000)', markersize=size_marker)
+         label='Difference (8,10000)', markersize=size_marker)
 
 # Ploting the x lable
 plt.xticks(fontsize=size_font)
@@ -58,5 +58,5 @@ plt.xlabel("Regularization parameter", fontsize=size_font)
 # Ploting the y lable
 plt.yticks(fontsize=size_font)
 plt.ylabel("Risk / Error", fontsize=size_font)
-plt.legend(fontsize=size_font, loc='center right')
+plt.legend(fontsize=size_font, loc='upper right')
 plt.show()

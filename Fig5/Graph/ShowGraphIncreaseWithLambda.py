@@ -48,14 +48,14 @@ f.close()
 plt.figure(figsize=(12, 7))
 # Noise Sigma 0.5
 plt.plot(lambda_num_lists[0:46:2], emp_test_minus_emp_data[0:46:2], 'rs', linestyle='--',
-         label='Difference between test error and empirical risk ($\sigma^2=0.5$)', markersize=size_marker)
+         label='Difference ($\sigma^2=0.5$)', markersize=size_marker)
 show_value1 = str(0.069758)
 plt.annotate(show_value1,  xytext=(4.8e-05, 0.070358), xy=(5.4e-05, 0.069758250022623))
 plt.plot(5.4e-05, 0.069758250022623,'ks')
 
 # Noise Sigma 1
 plt.plot(lambda_num_lists[46:92:2], emp_test_minus_emp_data[46:92:2], 'bo', linestyle=':',
-         label='Difference between test error and empirical risk ($\sigma^2=1.0$)', markersize=size_marker)
+         label='Difference ($\sigma^2=1.0$)', markersize=size_marker)
 show_value2 = str(0.081935)
 plt.annotate(show_value2,  xytext=(0.000095, 0.08255), xy=(0.000102, 0.08193508007896423))
 plt.plot(0.000102, 0.08193508007896423,'ys')

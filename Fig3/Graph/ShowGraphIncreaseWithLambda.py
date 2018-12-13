@@ -47,9 +47,9 @@ f.close()
 # Graphic display
 plt.figure(figsize=(12, 7))
 plt.plot(lambda_num_lists[0:22], emp_test_minus_emp_data[0:22], 'rs', linestyle='--',
-         label='Difference between test error and empirical risk (6,10000)', markersize=size_marker)
+         label='Difference (6,10000)', markersize=size_marker)
 plt.plot(lambda_num_lists[22:44], emp_test_minus_emp_data[22:44], 'bo', linestyle=':',
-         label='Difference between test error and empirical risk (4,8000)', markersize=size_marker)
+         label='Difference (4,8000)', markersize=size_marker)
 
 # Adding points
 #show_value1 = str(0.06988)

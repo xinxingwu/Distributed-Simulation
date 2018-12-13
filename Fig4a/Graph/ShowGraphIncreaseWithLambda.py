@@ -47,10 +47,10 @@ f.close()
 # Graphic display
 plt.figure(figsize=(12, 7))
 plt.plot(lambda_num_lists[20:40], emp_test_minus_emp_data[20:40], 'bo', linestyle=':',
-         label='Difference between test error and empirical risk (8,10000)', markersize=size_marker)
+         label='Difference (8,10000)', markersize=size_marker)
 
 plt.plot(lambda_num_lists[40:60], emp_test_minus_emp_data[40:60], 'rs', linestyle=':',
-         label='Difference between test error and empirical risk (8,9000)', markersize=size_marker)
+         label='Difference (8,9000)', markersize=size_marker)
 
 
 # Ploting the x lable

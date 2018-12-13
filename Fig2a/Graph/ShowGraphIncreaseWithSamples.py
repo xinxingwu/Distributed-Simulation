@@ -47,9 +47,9 @@ f.close()
 # Graphic display
 plt.figure(figsize=(12, 7))
 plt.plot(sample_num_data[0:14], emp_test_data[0:14], 'bo', linestyle='--',
-         label='Test error', markersize=size_marker)
+         label='Test distributed error', markersize=size_marker)
 plt.plot(sample_num_data[0:14], emp_test_minus_emp_data[0:14], 'rs', linestyle=':',
-         label='Difference between test error and empirical risk', markersize=size_marker)
+         label='Difference', markersize=size_marker)
 
 show_value1 = str(0.06853)
 plt.annotate(show_value1, xytext=(7500, 0.074), xy=(8000, 0.068534939767174))
