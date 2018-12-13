@@ -10,4 +10,4 @@ The folder “Samples” includes the
 
 4) training samples with noise (1) https://github.com/xinxingwu/Distributed-Simulation/tree/master/Samples/TrainingSamplesWithNoise1
 
-In addition, if using PyCharm to run the codes, it needs to configure the Project Interpreter. Please see
+In addition, if using PyCharm to run the codes, it needs to configure the Project Interpreter. Please see https://github.com/xinxingwu/Distributed-Simulation/blob/master/Supplyment/PycharmEnvironmentSetting.gif
